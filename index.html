@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Satej Temkar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.png" />
+    <script src="main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <section id="hero" class="hero section">
+        <nav class="nav">
+          <div class="nav__logo">Satej Temkar</div>
+          <div class="nav__items">
+            <div class="nav__item"><a href="#projects">Projects</a></div>
+            <div class="nav__item"><a href="#about">About</a></div>
+            <div class="nav__item"><a href="#contact">Contact</a></div>
+          </div>
+        </nav>
+        <div class="__content-wrap">
+          <div class="hero__content">
+            <h1
+              class="hero__content__title title__gradient hero__content__item"
+            >
+              <span class="hero__content__title--small"
+                >Full Stack Developer.</span
+              >
+              Transforming your <span class="hero__content__title--accent">ideas</span> into powerful web applications.
+            </h1>
+            <p class="hero__content__paragraph hero__content__item">
+              I develop full-stack web apps using the MERN stack efficiently.
+            </p>
+            <div class="hero__content__item">
+              <a href="#resume" class="hero__content__link">Resume</a>
+            </div>
+          </div>
+          <div class="hero__illustration">
+            <div class="hero__illustration__content">
+              <span class="hero__illustration__text">MongoDB</span>
+              <span class="hero__illustration__text">Express.js</span>
+              <span class="hero__illustration__text">React</span>
+              <span class="hero__illustration__text">Node.js</span>
+              <span class="hero__illustration__text">JavaScript</span>
+            </div>
+            <img
+              class="hero__illustration__img"
+              src="assets/portfolio-illustration.png"
+              alt="app image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section horizontal">
+        <div class="horizontal__animation-wrap to--right">
+          <div class="animation__content__wrap">
+            <h2 class="animation__title title__gradient projects__main__title">
+              My Featured Projects
+            </h2>
+            <div class="project project__item">
+              <div class="project__img">
+                <img
+                  src="assets/complete-ecommerce.png"
+                  alt="complete-ecommerce"
+                />
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">
+                  Complete E-commerce in React and Node.js
+                </h3>
+                <p class="project__description">
+                  In this course I teach how to create a complete ecommerce web
+                  app using the MERN stack.
+                </p>
+
+                <div class="project__links">
+                  <a href="https://youtu.be/XQJNVF9pFYs" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                      />
+                    </svg>
+                    <span>Course</span>
+                  </a>
+                  <a
+                    href="https://www.patreon.com/posts/react-and-node-67782982?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-code"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                      />
+                    </svg>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project project__item">
+              <div class="project__img">
+                <img src="assets/chat-app.png" alt="complete-ecommerce" />
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">
+                  RealTime Chat App in React, Node.js and Socket.io
+                </h3>
+                <p class="project__description">
+                  Learn how to create a RealTime Chat App using React Context
+                  API, Node.js and Socket.io
+                </p>
+
+                <div class="project__links">
+                  <a href="https://youtu.be/V0nYtnJ6y04" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                      />
+                    </svg>
+                    <span>Course</span>
+                  </a>
+                  <a
+                    href="https://www.patreon.com/posts/realtime-chat-in-76904794?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-code"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                      />
+                    </svg>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project project__item">
+              <div class="project__img">
+                <img
+                  src="assets/admin-dashboard.png"
+                  alt="complete-ecommerce"
+                />
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">
+                  React and Node.js E-commerce Admin Dashboard
+                </h3>
+                <p class="project__description">
+                  Learn CRUD operations and how to create rich data-tables in
+                  react and material UI
+                </p>
+
+                <div class="project__links">
+                  <a href="https://youtu.be/vHFybJGDxII" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                      />
+                    </svg>
+                    <span>Course</span>
+                  </a>
+                  <a
+                    href="https://www.patreon.com/posts/react-and-node-67782982?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-code"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                      />
+                    </svg>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project project__item">
+              <div class="project__img">
+                <img src="assets/nodemailer.png" alt="complete-ecommerce" />
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">
+                  Sending Verification Email Using Nodemailer in React and
+                  Node.js 🤯
+                </h3>
+                <p class="project__description">
+                  Learn how to send emails and verify user email using
+                  nodemailer
+                </p>
+
+                <div class="project__links">
+                  <a href="https://youtu.be/HI_KKUvcwtk" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                      />
+                    </svg>
+                    <span>Course</span>
+                  </a>
+                  <a
+                    href="https://www.patreon.com/posts/sending-email-79182426?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-code"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                      />
+                    </svg>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project project__item">
+              <div class="project__img">
+                <img src="assets/react-dnd.png" alt="complete-ecommerce" />
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">
+                  Todo App with Drag and Drop - React DnD Tutorial
+                </h3>
+                <p class="project__description">
+                  Learn how to create a simple but cool Todo app in React,
+                  TailwindCSS and React DnD.
+                </p>
+
+                <div class="project__links">
+                  <a href="https://youtu.be/r-m3L3m2IW8" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                      />
+                    </svg>
+                    <span>Course</span>
+                  </a>
+                  <a
+                    href="https://www.patreon.com/posts/react-project-80060020?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-code"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                      />
+                    </svg>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="__content-wrap">
+          <h2 class="about__title title__gradient gsap-about__item">Profile</h2>
+          <div class="about__content-area">
+            <div class="about__profile gsap-about__item">
+              <div class="profile__img">
+                <img src="assets/avatar.png" alt="avatar" />
+              </div>
+              <div class="profile__bio">
+                I build innovative full-stack web applications.
+              </div>
+              <div class="profile__tags">
+                <span>Web developer</span>
+                <span>Freelancer</span>
+                <span>React developer</span>
+              </div>
+              <div class="profile__stats">
+                <div class="yourube-videos"><span>20+</span> Projects</div>
+              </div>
+              <div class="profile__links">
+                <a href="#" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+              </div>
+            </div>
+            <div class="about__content gsap-about__item">
+              <p class="about__hello">
+                Hello <span class="about__hello--wave">👋</span>
+              </p>
+              <p>
+                I'm a passionate full-stack  developer with 2+ years of experience in building dynamic and responsive web applications.
+              </p>
+              <p>
+                Skilled in full-stack development, I enjoy coding, problem-solving, and creating efficient digital solutions using modern technologies.
+              </p>
+              <p>I'm open to collaborating on React and Node.js projects.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume section">
+        <div class="__content-wrap">
+          <div class="resume__body">
+            <h2 class="resume__title title__gradient gsap-resume__item">
+              Education and Experience
+            </h2>
+            <div class="resume__content">
+              <div class="resume__item gsap-resume__item">
+                <span class="resume__year">2024-Present</span>
+                <p class="resume__activity">Web Developer</p>
+                <p class="resume__place">Acssel Infotech PVT LTD</p>
+              </div>
+              <div class="resume__item gsap-resume__item">
+                <span class="resume__year">2023</span>
+                <p class="resume__activity">React JS Developer</p>
+                <p class="resume__place">Maxgen Technologies PVT LTD</p>
+              </div>
+              <div class="resume__item gsap-resume__item">
+                <span class="resume__year">july_2022 - dec_2022</span>
+                <p class="resume__activity">Intern Web Developer</p>
+                <p class="resume__place">Softmusk Info PVT LTD</p>
+              </div>
+              <div class="resume__item gsap-resume__item">
+                <span class="resume__year">2019-2022</span>
+                <p class="resume__activity">
+                  Bachelor of Computer Application
+                </p>
+                <p class="resume__place">DCITM</p>
+              </div>
+            </div>
+          </div>
+          <div class="resume__illustration gsap-resume__item">
+            <img src="assets/road_to_knowledge-1.png" alt="road to knowledge" />
+          </div>
+        </div>
+      </section>
+
+      <section class="services section">
+        <div class="__content-wrap">
+          <h1 class="services__title title__gradient gsap-service-item">
+            Work Interest and What I Can Offer
+          </h1>
+          <p class="work-interest gsap-service-item">
+            I’m excited to work with companies using modern technologies like React, Node.js, and MongoDB. I enjoy roles that challenge me, promote learning, and encourage teamwork.
+          </p>
+
+          <div class="service-items-container gsap-service-item-1">
+            <div class="service-card">
+              <div class="service-card__icon">
+                <div class="service__icon-wrapper">
+                  <img src="assets/icons/code-slash.svg" alt="" />
+                </div>
+              </div>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Web Development</h3>
+                <p class="service-card__paragraph">
+                  Building scalable and high-performance web applications using the MERN stack.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="service-items-container gsap-service-item-2">
+            <div class="service-card">
+              <div class="service-card__icon">
+                <div class="service__icon-wrapper">
+                  <img src="assets/icons/desktop.svg" alt="" />
+                </div>
+              </div>
+              <div class="service-card__content">
+                <h3 class="service-card__title">React.js Developer</h3>
+                <p class="service-card__paragraph">
+                  Creating dynamic and user-friendly interfaces with modern React technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="service-items-container gsap-service-item-3">
+            <div class="service-card">
+              <div class="service-card__icon">
+                <div class="service__icon-wrapper">
+                  <img src="assets/icons/school.svg" alt="" />
+                </div>
+              </div>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Node.js Developer</h3>
+                <p class="service-card__paragraph">
+                  Developing robust and efficient server-side applications with Node.js.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="service-items-container gsap-service-item-4">
+            <div class="service-card">
+              <div class="service-card__icon">
+                <div class="service__icon-wrapper">
+                  <img src="assets/icons/desktop.svg" alt="" />
+                </div>
+              </div>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Frontend Developer</h3>
+                <p class="service-card__paragraph">
+                  Designing responsive, user-friendly, and high-performance web interfaces with modern technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="tech section">
+        <div class="__content-wrap">
+          <h2 class="title__gradient tech__title gsap-tech__item">
+            Technologies
+          </h2>
+          <div class="tech__items-container">
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/react.png"
+                alt="React"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">React</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/node.png"
+                alt="node.js"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">Node.js</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/mongodb.png"
+                alt="MongoDB"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">MongoDB</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/express.png"
+                alt="Express.js"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">Express.js</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/javascript.png"
+                alt="javascript"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">JavaScript</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/angular.png"
+                alt="Angular"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">Angular</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/css.png"
+                alt="css"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">CSS</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/tailwind.png"
+                alt="TailwindCSS"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">TailwindCSS</span>
+            </div>
+            
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/aws.png"
+                alt="aws"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">AWS</span>
+            </div>
+
+            <div class="tech__item gsap-tech__item">
+              <img
+                src="assets/tech/github.png"
+                alt="GitHub"
+                class="tech__item__img"
+              />
+              <span class="tech__item__text">GitHub</span>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="__content-wrap">
+          <div class="contact__body">
+            <h2 class="contact__title title__gradient gsap-contact__item">
+              Get In Touch
+            </h2>
+            <div class="contact__content gsap-contact__item">
+              Let's connect! Feel free to reach out, and I'll get back to you soon.
+            </div>
+            <div class="contact__email gsap-contact__item">
+              satejstemkar2177@gmail.com <br>
+              <i>8625071711</i>
+            </div>
+            <nav class="footer-nav">
+              <div class="footer-nav__logo gsap-contact__item">
+                Satej Temkar
+              </div>
+              <div class="footer-nav__items">
+                <div class="footer-nav__item gsap-contact__item">
+                  <a href="#projects ">Projects</a>
+                </div>
+                <div class="footer-nav__item gsap-contact__item">
+                  <a href="#about">About</a>
+                </div>
+                <div class="footer-nav__item gsap-contact__item">
+                  <a href="#resume">Resume</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
